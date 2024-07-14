@@ -63,16 +63,16 @@
     {
       "type": "mixed",
       "tag": "mixed-in",
-      "listen": "127.0.0.1",
-      "listen_port": 2334,
+      "listen": "",
+      "listen_port": 22,
       "sniff": true,
       "sniff_override_destination": true
     },
     {
       "type": "direct",
       "tag": "dns-in",
-      "listen": "127.0.0.1",
-      "listen_port": 6450
+      "listen": "",
+      "listen_port": 22
     }
   ],
   "outbounds": [
